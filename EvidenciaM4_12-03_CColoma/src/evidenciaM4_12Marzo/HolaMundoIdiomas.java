@@ -5,6 +5,7 @@ public class HolaMundoIdiomas {
 		
 		if( args.length == 0 ){
 			System.out.println("Hallo Welt.");
+			return; //el programa se acaba
 		}
 		
 		String idioma = args[0];
@@ -13,7 +14,7 @@ public class HolaMundoIdiomas {
 			case "Ingles":
 				System.out.println("Hello World.");
 				break;
-			case "Español":
+			case "EspaÃ±ol":
 				System.out.println("Hola Mundo.");
 				break;
 			case "Frances":
